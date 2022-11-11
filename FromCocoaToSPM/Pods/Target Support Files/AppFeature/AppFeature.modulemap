@@ -1,0 +1,6 @@
+framework module AppFeature {
+  umbrella header "AppFeature-umbrella.h"
+
+  export *
+  module * { export * }
+}

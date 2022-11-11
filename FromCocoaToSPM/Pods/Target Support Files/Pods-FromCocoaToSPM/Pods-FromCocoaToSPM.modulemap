@@ -1,0 +1,6 @@
+framework module Pods_FromCocoaToSPM {
+  umbrella header "Pods-FromCocoaToSPM-umbrella.h"
+
+  export *
+  module * { export * }
+}

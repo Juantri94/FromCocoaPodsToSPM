@@ -1,0 +1,6 @@
+framework module Pods_FromCocoaToSPMTests {
+  umbrella header "Pods-FromCocoaToSPMTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

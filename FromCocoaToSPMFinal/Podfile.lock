@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (5.6.1)
+  - Amplitude (8.11.0):
+    - AnalyticsConnector (~> 1.0.0)
+  - AnalyticsConnector (1.0.0)
+  - Appboy-iOS-SDK (4.5.1):
+    - Appboy-iOS-SDK/UI (= 4.5.1)
+  - Appboy-iOS-SDK/ContentCards (4.5.1):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (< 6, >= 5.8.2)
+  - Appboy-iOS-SDK/Core (4.5.1)
+  - Appboy-iOS-SDK/InAppMessage (4.5.1):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (< 6, >= 5.8.2)
+  - Appboy-iOS-SDK/NewsFeed (4.5.1):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (< 6, >= 5.8.2)
+  - Appboy-iOS-SDK/UI (4.5.1):
+    - Appboy-iOS-SDK/ContentCards
+    - Appboy-iOS-SDK/Core
+    - Appboy-iOS-SDK/InAppMessage
+    - Appboy-iOS-SDK/NewsFeed
+  - SDWebImage (5.13.4):
+    - SDWebImage/Core (= 5.13.4)
+  - SDWebImage/Core (5.13.4)
+
+DEPENDENCIES:
+  - Alamofire (= 5.6.1)
+  - Amplitude (= 8.11.0)
+  - Appboy-iOS-SDK (= 4.5.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Amplitude
+    - AnalyticsConnector
+    - Appboy-iOS-SDK
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  Amplitude: f9243e15775e738a502cf1dc58cffb678dac02c6
+  AnalyticsConnector: 4c386d5972ac9da86e22d668564dbbac97558754
+  Appboy-iOS-SDK: 93f8c7e0820a79b4ef5367fae32406f03a30ca97
+  SDWebImage: e5cc87bf736e60f49592f307bdf9e157189298a3
+
+PODFILE CHECKSUM: 5ad0f858b5cc372ed4fa582e18a5369436d639d2
+
+COCOAPODS: 1.11.3

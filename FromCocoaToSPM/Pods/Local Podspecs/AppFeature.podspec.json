@@ -1,0 +1,28 @@
+{
+  "name": "AppFeature",
+  "version": "1.0.0",
+  "authors": "XING GmbH & Co. KG",
+  "license": "commercial",
+  "homepage": "www.xing.com",
+  "source": {
+    "git": ""
+  },
+  "summary": "AppFeature – Version 1.0.0",
+  "platforms": {
+    "ios": "16.0"
+  },
+  "swift_versions": "5.6",
+  "source_files": "Sources/**/*.swift",
+  "dependencies": {
+    "Appboy-iOS-SDK": [
+
+    ],
+    "ProductsFeature": [
+
+    ],
+    "SettingsFeature": [
+
+    ]
+  },
+  "swift_version": "5.6"
+}

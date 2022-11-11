@@ -1,0 +1,31 @@
+platform :ios, '16.0'
+
+# Comment the next line if you don't want to use dynamic frameworks
+use_frameworks!
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+target 'FromCocoaToSPM' do
+
+  # External Pods
+  pod 'Appboy-iOS-SDK',   '4.5.1'
+  pod 'Alamofire',        '5.6.1'
+  pod 'Amplitude',        '8.11.0'
+
+  # Internal Pods
+#  pod 'AppFeature',       			        path: 'InternalDependencies/AppFeature'
+#  pod 'ProductsFeature',       		      path: 'InternalDependencies/ProductsFeature'
+#  pod 'SettingsFeature',       		      path: 'InternalDependencies/SettingsFeature'
+#  pod 'UIComponents',       		        path: 'InternalDependencies/UIComponents'
+  
+  target 'FromCocoaToSPMTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FromCocoaToSPMUITests' do
+    # Pods for testing
+  end
+
+end

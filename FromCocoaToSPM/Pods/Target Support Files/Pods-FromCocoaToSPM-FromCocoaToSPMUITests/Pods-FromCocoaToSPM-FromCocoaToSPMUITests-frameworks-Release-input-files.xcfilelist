@@ -1,0 +1,10 @@
+${PODS_ROOT}/Target Support Files/Pods-FromCocoaToSPM-FromCocoaToSPMUITests/Pods-FromCocoaToSPM-FromCocoaToSPMUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Amplitude/Amplitude.framework
+${BUILT_PRODUCTS_DIR}/AnalyticsConnector/AnalyticsConnector.framework
+${BUILT_PRODUCTS_DIR}/AppFeature/AppFeature.framework
+${BUILT_PRODUCTS_DIR}/Appboy-iOS-SDK/Appboy_iOS_SDK.framework
+${BUILT_PRODUCTS_DIR}/ProductsFeature/ProductsFeature.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SettingsFeature/SettingsFeature.framework
+${BUILT_PRODUCTS_DIR}/UIComponents/UIComponents.framework

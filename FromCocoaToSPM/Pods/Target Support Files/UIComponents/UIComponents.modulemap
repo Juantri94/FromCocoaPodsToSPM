@@ -1,0 +1,6 @@
+framework module UIComponents {
+  umbrella header "UIComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

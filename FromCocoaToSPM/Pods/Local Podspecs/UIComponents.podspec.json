@@ -1,0 +1,17 @@
+{
+  "name": "UIComponents",
+  "version": "1.0.0",
+  "authors": "XING GmbH & Co. KG",
+  "license": "commercial",
+  "homepage": "www.xing.com",
+  "source": {
+    "git": ""
+  },
+  "summary": "UIComponents – Version 1.0.0",
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.6",
+  "source_files": "Sources/**/*.swift",
+  "swift_version": "5.6"
+}

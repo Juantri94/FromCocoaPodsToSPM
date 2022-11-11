@@ -1,0 +1,80 @@
+PODS:
+  - Alamofire (5.6.1)
+  - Amplitude (8.11.0):
+    - AnalyticsConnector (~> 1.0.0)
+  - AnalyticsConnector (1.0.0)
+  - Appboy-iOS-SDK (4.5.1):
+    - Appboy-iOS-SDK/UI (= 4.5.1)
+  - Appboy-iOS-SDK/ContentCards (4.5.1):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (< 6, >= 5.8.2)
+  - Appboy-iOS-SDK/Core (4.5.1)
+  - Appboy-iOS-SDK/InAppMessage (4.5.1):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (< 6, >= 5.8.2)
+  - Appboy-iOS-SDK/NewsFeed (4.5.1):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (< 6, >= 5.8.2)
+  - Appboy-iOS-SDK/UI (4.5.1):
+    - Appboy-iOS-SDK/ContentCards
+    - Appboy-iOS-SDK/Core
+    - Appboy-iOS-SDK/InAppMessage
+    - Appboy-iOS-SDK/NewsFeed
+  - AppFeature (1.0.0):
+    - Appboy-iOS-SDK
+    - ProductsFeature
+    - SettingsFeature
+  - ProductsFeature (1.0.0):
+    - Alamofire
+    - Amplitude
+    - UIComponents
+  - SDWebImage (5.13.4):
+    - SDWebImage/Core (= 5.13.4)
+  - SDWebImage/Core (5.13.4)
+  - SettingsFeature (1.0.0):
+    - Alamofire
+    - Amplitude
+    - UIComponents
+  - UIComponents (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire (= 5.6.1)
+  - Amplitude (= 8.11.0)
+  - Appboy-iOS-SDK (= 4.5.1)
+  - AppFeature (from `InternalDependencies/AppFeature`)
+  - ProductsFeature (from `InternalDependencies/ProductsFeature`)
+  - SettingsFeature (from `InternalDependencies/SettingsFeature`)
+  - UIComponents (from `InternalDependencies/UIComponents`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Amplitude
+    - AnalyticsConnector
+    - Appboy-iOS-SDK
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  AppFeature:
+    :path: InternalDependencies/AppFeature
+  ProductsFeature:
+    :path: InternalDependencies/ProductsFeature
+  SettingsFeature:
+    :path: InternalDependencies/SettingsFeature
+  UIComponents:
+    :path: InternalDependencies/UIComponents
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  Amplitude: f9243e15775e738a502cf1dc58cffb678dac02c6
+  AnalyticsConnector: 4c386d5972ac9da86e22d668564dbbac97558754
+  Appboy-iOS-SDK: 93f8c7e0820a79b4ef5367fae32406f03a30ca97
+  AppFeature: 46418017c4a6ad22a9b9f15cf5524b967909641d
+  ProductsFeature: 1683aa1f30830ea810dddc62b8dbdd2ce8fb613f
+  SDWebImage: e5cc87bf736e60f49592f307bdf9e157189298a3
+  SettingsFeature: 5a8146fa4ef4cca7f142d7bb6b1a74f82c0290c0
+  UIComponents: d53b4984cfea572caf211e34723cba00141be9de
+
+PODFILE CHECKSUM: 2f2b97b15b59b3184c56cf388d69716209e31548
+
+COCOAPODS: 1.11.3
